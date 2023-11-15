@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="../css/contacto.css">
+</head>
+
+<body>
+
+  <div class="contenedor">
+
+    <div class="box box1">
+      <nav class="navbar">
+        <div class="nav-logo">FODIEM </div>
+        <div class="nav-items" id="_items">
+
+          <a href="../index.html">Inicio</a>
+          <a href="fodiem.html">Fodiem</a>
+          <a href="noticias.html">Noticias</a>
+          <a href="cultura.html">Cultura</a>
+          <a href="contacto.html">Contacto</a>
+
+
+        </div>
+        <div class="nav-toggle" id="_toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+
+    <div class="box box2">
+      <br>
+      <form action="procesar_formulario.php" method="post">
+        <div>
+          <span>Nombre</span>
+          <input type="text" name="nombre" autocapitalize="words" autocomplete="off" />
+        </div> <br>
+
+        <div>
+          <span>Apellido</span>
+          <input type="text" name="apellido" autocapitalize="words" autocomplete="off" />
+        </div> <br>
+
+        <div>
+          <span>Email</span>
+          <input type="text" name="email" autocomplete="off" />
+        </div> <br>
+
+        <div>
+          <span>Asunto</span>
+          <input type="text" name="asunto" autocomplete="off" />
+        </div> <br>
+
+        <div>
+          <span>Mensaje</span>
+          <textarea name="mensaje" cols="60" rows="10"></textarea>
+        </div> <br>
+
+        <button id="boton" type="submit">Ennviar mensaje</button>
+
+      </form>
+      <br>
+
+      <a class="wsp" href="https://wa.me/5493364358686?text=Hola"><button class="btn-wsp" type="button" id="whatsapp">
+          Ir a whatsapp</button></a>
+      <br>
+      <br>
+
+
+    </div>
+
+
+    <script src="../js/nav.js"></script>
+    <script src="JS BOOSTRAP/bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+
+
+
+
+</body>
